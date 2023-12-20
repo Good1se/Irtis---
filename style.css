@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    transition: 0.3s;
+}
+.nav-link:hover {
+    color: red;
+}
+.header-bg {
+    background: #C99797;
+}
+.intro-bg {
+    background-image: url(img/Logo.png);
+    height: 722px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.introLogo {
+    font-size: 72px;
+    color: blue;
+    margin-top: 200px;
+}
+.introButton {
+    background: none;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px 2.5px;
+    color: white;
+    font-size: 28px;
+    transition: 0.3s;
+}
+.introButton:hover {
+    transform: scale(1.2);
+}
+.introtittle {
+    color: white;
+    font-size: 38px;
+    margin: 50px 0;
+    width: 550px;
+    text-align: center;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.about-bg {
+    background: #C99797;
+    min-height: 800px;
+}
+.aboutContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.aboutTittle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-weight: 700;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+.aboutText {
+    font-size: 40px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 610px;
+    transition: 2s;
+}
+.aboutText:hover {
+    color: chocolate;
+}
+.contentwrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.contentText {
+    transition: 0.4s;
+}
+.contentText:hover {
+    color: chocolate;
+}
+.contentTittle{
+    font-size: 25px;
+    color: white;
+    margin: 20px 0;
+    font-weight: 900;
+}
+.reviewsContent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.reviewsImg {
+    margin-top: 15px;
+}
+.contacts-bg {
+    background: #C99797;
+}
+.contactsText{
+    padding-bottom: 50px;
+    margin-top: 40px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 985px;
+    font-size: 32px;
+}
+.footer-bg {
+    background: #8A2121;
+    min-height: 240px;
+}
+.footercontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+.footerTittle {
+    font-size: 48px;
+    font-weight: 800;
+}
+.footer-bg2 {
+    background: #C99797;
+}
+.footerText {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    transition: 0.4s;
+}
+.footerText:hover {
+    color: blue;
+}
